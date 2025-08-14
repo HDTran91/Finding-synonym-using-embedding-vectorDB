@@ -1,1 +1,2 @@
-# Finding-synonym-using-embedding-vectorDB
+Finding Synonyms Using Embedding & Vector Databases
+This project demonstrates how to find synonyms or semantically similar words using AI-powered word embeddings and a vector database. The system converts words into high-dimensional numerical vectors using an embedding model, then stores them in a vector database (such as Pinecone, Weaviate, or FAISS). When a user inputs a word, the system searches for the closest vectors in the database to return words with similar meanings. This approach captures contextual and semantic relationships, going beyond exact matches to identify words with almost the same meaning in real-world usage.
